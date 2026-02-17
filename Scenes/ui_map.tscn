@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dcxi2rq5iq07h"]
+
+[ext_resource type="Texture2D" uid="uid://du0o3jgl7gack" path="res://Resources/Tilesets/DungeonGame_BackgroundTiles.png" id="1_pwjap"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7tgq5"]
+texture = ExtResource("1_pwjap")
+texture_region_size = Vector2i(32, 32)
+4:0/0 = 0
+5:0/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_mutev"]
+sources/0 = SubResource("TileSetAtlasSource_7tgq5")
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1646380899]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1635482512]
+tile_set = SubResource("TileSet_mutev")

@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://daqc0m7j1hvm6"]
+
+[ext_resource type="Texture2D" uid="uid://dxqmleu2lstvh" path="res://Resources/Sprites/gui_key.png" id="1_3xn01"]
+[ext_resource type="Texture2D" uid="uid://du7x4d35xxouv" path="res://Resources/Sprites/gui_key_text.png" id="2_je1xd"]
+[ext_resource type="Texture2D" uid="uid://djfrxr0kfoh1c" path="res://Resources/Sprites/gui_enemies_text.png" id="3_0cg4w"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1461046420]
+
+[node name="ColorRect6" type="ColorRect" parent="." unique_id=1958916573]
+offset_left = 304.0
+offset_right = 352.0
+offset_bottom = 240.0
+color = Color(0.36219534, 0.46464515, 0.5504668, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="." unique_id=1216944648]
+offset_top = 240.0
+offset_right = 352.0
+offset_bottom = 288.0
+color = Color(0.36219534, 0.46464515, 0.5504668, 1)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1818256003]
+offset_top = 232.0
+offset_right = 304.0
+offset_bottom = 240.0
+color = Color(0.19607843, 0.26666668, 0.32156864, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1120597826]
+offset_left = 296.0
+offset_right = 304.0
+offset_bottom = 232.0
+color = Color(0.19607843, 0.26666668, 0.32156864, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="." unique_id=911910379]
+offset_left = 288.0
+offset_right = 296.0
+offset_bottom = 224.0
+color = Color(0.11326406, 0.16157824, 0.19911924, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="." unique_id=1854951035]
+offset_top = 224.0
+offset_right = 296.0
+offset_bottom = 232.0
+color = Color(0.11372549, 0.16078432, 0.2, 1)
+
+[node name="KeyImage" type="TextureRect" parent="." unique_id=941895932]
+texture_filter = 1
+offset_left = 48.0
+offset_top = 256.0
+offset_right = 64.0
+offset_bottom = 272.0
+texture = ExtResource("1_3xn01")
+
+[node name="KeyTextImage" type="TextureRect" parent="." unique_id=95110231]
+texture_filter = 1
+texture_repeat = 1
+offset_left = 8.0
+offset_top = 248.0
+offset_right = 40.0
+offset_bottom = 280.0
+texture = ExtResource("2_je1xd")
+expand_mode = 1
+
+[node name="EnemiesTextImage" type="TextureRect" parent="." unique_id=2086986002]
+texture_filter = 1
+offset_left = 304.0
+offset_right = 352.0
+offset_bottom = 48.0
+texture = ExtResource("3_0cg4w")
+expand_mode = 1
